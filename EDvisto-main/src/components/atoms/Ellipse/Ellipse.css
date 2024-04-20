@@ -1,0 +1,11 @@
+.ellipse {
+    background-color: var(--violet-primary);
+    block-size: 6.4375rem;
+    inline-size: 41.4375rem;
+    position: absolute;
+    bottom: 0;
+    left: -25%;
+    transform: translateY(50%);
+    border-radius: 50%;
+    z-index: -1;
+}

@@ -1,0 +1,21 @@
+.layoutProyect {
+    position: relative;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: ;
+
+}
+
+.layoutProyect-backround {
+    position: absolute;
+    bottom: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    z-index: -1;
+}
+
+.layoutProyect-backround svg {
+    position: absolute;
+    bottom: 0;
+}

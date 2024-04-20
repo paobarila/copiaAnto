@@ -1,0 +1,15 @@
+.form-content {
+    inline-size:28rem;
+    max-block-size:40.9375rem;
+    border-radius: 1.25rem;
+    padding-inline: 1.25rem;
+    padding-block: 2.67rem;
+    background: var(--white);
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+    margin: auto;
+}

@@ -1,0 +1,25 @@
+:root {
+  font-size: 16px;
+  --violet-primary: #7C4DFF;
+  --orange-secondary: #FFAB40;
+  --ligthBlue-acent: #4DB8FF;
+  --gray: #CFCFCF;
+  --white: #F8F8F8;
+  --black-text: #333333;
+  --red-alert: #FF6961;
+  --baseFontFamily: Roboto;
+  --letter-spacing: 7%;
+  --h1: bold 2rem/2.4rem var(--baseFontFamily);
+  --h2: bold 1.75rem/2.1rem var(--baseFontFamily);
+  --h3: bold 1.5rem/1.8rem var(--baseFontFamily);
+  --subtitle: 1.25rem/1.5rem normal var(--baseFontFamily);
+  --text: normal 1rem/1.5rem var(--baseFontFamily);
+  --button: bold 1rem/1.5rem var(--baseFontFamily);
+  --link: normal 1rem/1.5rem var(--baseFontFamily);
+}
+
+body {
+  background-color: var(--white);
+  font-family: var(--baseFontFamily);
+  margin: 0;
+}

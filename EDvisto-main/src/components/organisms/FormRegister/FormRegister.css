@@ -1,0 +1,14 @@
+.form-container {
+    position: relative;
+    margin: auto;
+    inline-size:28rem;
+    max-block-size:56.585rem;
+    border-radius: 1.25rem;
+    padding: 1.25rem;
+    background: var(--white);
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    align-items: center;
+    box-sizing: border-box;
+}

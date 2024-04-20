@@ -1,0 +1,16 @@
+.login {
+    max-inline-size: 90rem;
+    display: grid;
+    margin: auto;
+    padding-block: 7.625rem;
+}
+
+@media only screen and (max-width: 1024px) {
+    .login {
+        padding-block-start: 1rem;
+        padding-block-end: 4.5rem;
+    }
+}
+
+
+
