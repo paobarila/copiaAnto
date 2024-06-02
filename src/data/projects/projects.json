@@ -1,0 +1,592 @@
+{
+  "projects": [
+    {
+      "projectId": 1,
+      "name": "Los planetas",
+      "description": "Descripción del Proyecto A",
+      "created_at": "2024-05-01",
+      "end_at": "2024-07-01",
+      "usersId": [101, 102, 103],
+      "image": "https://concepto.de/wp-content/uploads/2019/04/sistema-solar-planetas-e1554483553214.jpg",
+      "assets": ["asset1", "asset2", "asset3"],
+      "invitationStatus": "open",
+      "allowOpenJoin": true,
+      "invitationCodeMessage": "Únete usando el código: ABC123",
+      "tasks": [
+        {
+          "taskId": 1,
+          "name": "Tarea 1",
+          "description": "Descripción de la Tarea 1",
+          "status": "pending",
+          "assignedTo": 101
+        },
+        {
+          "taskId": 2,
+          "name": "Tarea 2",
+          "description": "Descripción de la Tarea 2",
+          "status": "completed",
+          "assignedTo": 102
+        }
+      ],
+      "mentorEvaluations": [
+        {
+          "userId": 101,
+          "evaluation": "Excelente trabajo, sigue así."
+        },
+        {
+          "userId": 102,
+          "evaluation": "Necesitas mejorar en la comunicación."
+        }
+      ],
+      "selfEvaluations": [
+        {
+          "userId": 101,
+          "evaluation": "Me siento satisfecho con mi desempeño."
+        },
+        {
+          "userId": 102,
+          "evaluation": "Creo que puedo mejorar en la gestión del tiempo."
+        }
+      ]
+    },
+    {
+      "projectId": 2,
+      "name": "Astronautas",
+      "description": "Descripción del Proyecto B",
+      "created_at": "2024-06-01",
+      "end_at": "2024-08-01",
+      "usersId": [104, 105],
+      "image": "https://s1.elespanol.com/2017/10/22/actualidad/actualidad_256239333_130044980_1706x960.jpg",
+      "assets": ["asset4", "asset5"],
+      "invitationStatus": "closed",
+      "allowOpenJoin": false,
+      "invitationCodeMessage": "",
+      "tasks": [
+        {
+          "taskId": 3,
+          "name": "Tarea 3",
+          "description": "Descripción de la Tarea 3",
+          "status": "in progress",
+          "assignedTo": 104
+        },
+        {
+          "taskId": 4,
+          "name": "Tarea 4",
+          "description": "Descripción de la Tarea 4",
+          "status": "pending",
+          "assignedTo": 105
+        }
+      ],
+      "mentorEvaluations": [
+        {
+          "userId": 104,
+          "evaluation": "Buen esfuerzo, sigue así."
+        },
+        {
+          "userId": 105,
+          "evaluation": "Necesitas trabajar en la precisión de tus entregas."
+        }
+      ],
+      "selfEvaluations": [
+        {
+          "userId": 104,
+          "evaluation": "Creo que puedo mejorar en la resolución de problemas."
+        },
+        {
+          "userId": 105,
+          "evaluation": "Me siento confiado con mi contribución al proyecto."
+        }
+      ]
+    },
+    {
+      "projectId": 3,
+      "name": "Bosques",
+      "description": "Descripción del Proyecto C",
+      "created_at": "2024-07-01",
+      "end_at": "2024-09-01",
+      "usersId": [106, 107],
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8rX4_dZuTMJGeCjH0-PM85xcBCxjxlb3vguO_5R4zcQ&s",
+      "assets": ["asset6", "asset7", "asset8"],
+      "invitationStatus": "open",
+      "allowOpenJoin": true,
+      "invitationCodeMessage": "Únete usando el código: XYZ789",
+      "tasks": [
+        {
+          "taskId": 5,
+          "name": "Tarea 5",
+          "description": "Descripción de la Tarea 5",
+          "status": "completed",
+          "assignedTo": 106
+        },
+        {
+          "taskId": 6,
+          "name": "Tarea 6",
+          "description": "Descripción de la Tarea 6",
+          "status": "pending",
+          "assignedTo": 107
+        }
+      ],
+      "mentorEvaluations": [
+        {
+          "userId": 106,
+          "evaluation": "Muy buen trabajo en la tarea 5."
+        },
+        {
+          "userId": 107,
+          "evaluation": "Espero más precisión en las tareas futuras."
+        }
+      ],
+      "selfEvaluations": [
+        {
+          "userId": 106,
+          "evaluation": "Estoy satisfecho con mi rendimiento hasta ahora."
+        },
+        {
+          "userId": 107,
+          "evaluation": "Necesito mejorar en la planificación de tareas."
+        }
+      ]
+    },
+    {
+      "projectId": 4,
+      "name": "Renacimiento",
+      "description": "Descripción del Proyecto D",
+      "created_at": "2024-08-01",
+      "end_at": "2024-10-01",
+      "usersId": [108, 109],
+      "image": "https://www.worldhistory.org/img/r/p/500x600/13128.jpg?v=1686677464",
+      "assets": ["asset9", "asset10"],
+      "invitationStatus": "open",
+      "allowOpenJoin": false,
+      "invitationCodeMessage": "",
+      "tasks": [
+        {
+          "taskId": 7,
+          "name": "Tarea 7",
+          "description": "Descripción de la Tarea 7",
+          "status": "in progress",
+          "assignedTo": 108
+        },
+        {
+          "taskId": 8,
+          "name": "Tarea 8",
+          "description": "Descripción de la Tarea 8",
+          "status": "pending",
+          "assignedTo": 109
+        }
+      ],
+      "mentorEvaluations": [
+        {
+          "userId": 108,
+          "evaluation": "Buen inicio en la tarea 7."
+        },
+        {
+          "userId": 109,
+          "evaluation": "Espero más participación en el proyecto."
+        }
+      ],
+      "selfEvaluations": [
+        {
+          "userId": 108,
+          "evaluation": "Me siento motivado para hacer un buen trabajo."
+        },
+        {
+          "userId": 109,
+          "evaluation": "Necesito mejorar en la comunicación con el equipo."
+        }
+      ]
+    },
+    {
+      "projectId": 5,
+      "name": "Montañas",
+      "description": "Descripción del Proyecto E",
+      "created_at": "2024-09-01",
+      "end_at": "2024-11-01",
+      "usersId": [110, 111],
+      "image": "https://img.asmedia.epimg.net/resizer/v2/MGLDLRBRJVHNFJXBK5V3ATY2OM.jpg?auth=3369b1f9a28936f517b34c9806707a3e81f904e9079dd5140a075afd2f654ad3&width=1200&height=1200&smart=true",
+      "assets": ["asset11", "asset12", "asset13"],
+      "invitationStatus": "closed",
+      "allowOpenJoin": false,
+      "invitationCodeMessage": "",
+      "tasks": [
+        {
+          "taskId": 9,
+          "name": "Tarea 9",
+          "description": "Descripción de la Tarea 9",
+          "status": "completed",
+          "assignedTo": 110
+        },
+        {
+          "taskId": 10,
+          "name": "Tarea 10",
+          "description": "Descripción de la Tarea 10",
+          "status": "in progress",
+          "assignedTo": 111
+        }
+      ],
+      "mentorEvaluations": [
+        {
+          "userId": 110,
+          "evaluation": "Excelente trabajo en la tarea 9."
+        },
+        {
+          "userId": 111,
+          "evaluation": "Necesitas seguir trabajando en la tarea 10."
+        }
+      ],
+      "selfEvaluations": [
+        {
+          "userId": 110,
+          "evaluation": "Me siento orgulloso de mis logros en este proyecto."
+        },
+        {
+          "userId": 111,
+          "evaluation": "Tengo confianza en mi capacidad para completar la tarea 10."
+        }
+      ]
+    },
+    {
+      "projectId": 6,
+      "name": "El abaco",
+      "description": "Descripción del Proyecto F",
+      "created_at": "2024-10-01",
+      "end_at": "2024-12-01",
+      "usersId": [112, 113, 114],
+      "image": "https://okdiario.com/img/2019/02/21/abaco.jpg",
+      "assets": ["asset14", "asset15"],
+      "invitationStatus": "open",
+      "allowOpenJoin": true,
+      "invitationCodeMessage": "Únete usando el código: DEF456",
+      "tasks": [
+        {
+          "taskId": 11,
+          "name": "Tarea 11",
+          "description": "Descripción de la Tarea 11",
+          "status": "pending",
+          "assignedTo": 112
+        },
+        {
+          "taskId": 12,
+          "name": "Tarea 12",
+          "description": "Descripción de la Tarea 12",
+          "status": "completed",
+          "assignedTo": 113
+        }
+      ],
+      "mentorEvaluations": [
+        {
+          "userId": 112,
+          "evaluation": "Buen inicio en la tarea 11."
+        },
+        {
+          "userId": 113,
+          "evaluation": "Excelente trabajo en la tarea 12."
+        }
+      ],
+      "selfEvaluations": [
+        {
+          "userId": 112,
+          "evaluation": "Me siento optimista sobre mis habilidades en este proyecto."
+        },
+        {
+          "userId": 113,
+          "evaluation": "Estoy satisfecho con mi rendimiento hasta ahora."
+        }
+      ]
+    },
+    {
+      "projectId": 7,
+      "name": "Arboles",
+      "description": "Descripción del Proyecto G",
+      "created_at": "2024-11-01",
+      "end_at": "2025-01-01",
+      "usersId": [115, 116],
+      "image": "https://www.infobae.com/new-resizer/y8qJaPnzJ1j5L9LgS0-iXkT5MA8=/arc-anglerfish-arc2-prod-infobae/public/NOINST63ABHWBKW4VZ3TL34YQI.jpg",
+      "assets": ["asset16", "asset17", "asset18"],
+      "invitationStatus": "closed",
+      "allowOpenJoin": false,
+      "invitationCodeMessage": "",
+      "tasks": [
+        {
+          "taskId": 13,
+          "name": "Tarea 13",
+          "description": "Descripción de la Tarea 13",
+          "status": "in progress",
+          "assignedTo": 115
+        },
+        {
+          "taskId": 14,
+          "name": "Tarea 14",
+          "description": "Descripción de la Tarea 14",
+          "status": "pending",
+          "assignedTo": 116
+        }
+      ],
+      "mentorEvaluations": [
+        {
+          "userId": 115,
+          "evaluation": "Necesitas mejorar la velocidad en la tarea 13."
+        },
+        {
+          "userId": 116,
+          "evaluation": "Espero más iniciativa en la tarea 14."
+        }
+      ],
+      "selfEvaluations": [
+        {
+          "userId": 115,
+          "evaluation": "Me estoy adaptando bien a las responsabilidades del proyecto."
+        },
+        {
+          "userId": 116,
+          "evaluation": "Necesito mejorar en la organización personal."
+        }
+      ]
+    },
+    {
+      "projectId": 8,
+      "name": "Contaminación",
+      "description": "Descripción del Proyecto H",
+      "created_at": "2024-12-01",
+      "end_at": "2025-02-01",
+      "usersId": [117, 118],
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcQ1GOUncKbk4lwCswZLUzyHiuNtc4JflmU14_C1uZvw&s",
+      "assets": ["asset19", "asset20"],
+      "invitationStatus": "open",
+      "allowOpenJoin": true,
+      "invitationCodeMessage": "Únete usando el código: GHI789",
+      "tasks": [
+        {
+          "taskId": 15,
+          "name": "Tarea 15",
+          "description": "Descripción de la Tarea 15",
+          "status": "completed",
+          "assignedTo": 117
+        },
+        {
+          "taskId": 16,
+          "name": "Tarea 16",
+          "description": "Descripción de la Tarea 16",
+          "status": "in progress",
+          "assignedTo": 118
+        }
+      ],
+      "mentorEvaluations": [
+        {
+          "userId": 117,
+          "evaluation": "Excelente trabajo en la tarea 15."
+        },
+        {
+          "userId": 118,
+          "evaluation": "Necesitas mejorar en la comunicación del progreso."
+        }
+      ],
+      "selfEvaluations": [
+        {
+          "userId": 117,
+          "evaluation": "Estoy satisfecho con mi desempeño hasta el momento."
+        },
+        {
+          "userId": 118,
+          "evaluation": "Tengo confianza en mi capacidad para completar la tarea 16."
+        }
+      ]
+    },
+    {
+      "projectId": 9,
+      "name": "Recetas saludables",
+      "description": "Descripción del Proyecto I",
+      "created_at": "2025-01-01",
+      "end_at": "2025-03-01",
+      "usersId": [119, 120, 121],
+      "image": "https://cdn.hellofresh.com/es/cms/SEO/recipes/tiras_de_pollo_con_salsa_teriyaki.jpeg",
+      "assets": ["asset21", "asset22"],
+      "invitationStatus": "open",
+      "allowOpenJoin": false,
+      "invitationCodeMessage": "",
+      "tasks": [
+        {
+          "taskId": 17,
+          "name": "Tarea 17",
+          "description": "Descripción de la Tarea 17",
+          "status": "pending",
+          "assignedTo": 119
+        },
+        {
+          "taskId": 18,
+          "name": "Tarea 18",
+          "description": "Descripción de la Tarea 18",
+          "status": "completed",
+          "assignedTo": 120
+        }
+      ],
+      "mentorEvaluations": [
+        {
+          "userId": 119,
+          "evaluation": "Necesitas más atención en la tarea 17."
+        },
+        {
+          "userId": 120,
+          "evaluation": "Excelente trabajo en la tarea 18."
+        }
+      ],
+      "selfEvaluations": [
+        {
+          "userId": 119,
+          "evaluation": "Tengo confianza en mis habilidades para completar la tarea 17."
+        },
+        {
+          "userId": 120,
+          "evaluation": "Me siento satisfecho con mi contribución al proyecto."
+        }
+      ]
+    },
+    {
+      "projectId": 10,
+      "name": "Espacio",
+      "description": "Descripción del Proyecto J",
+      "created_at": "2025-02-01",
+      "end_at": "2025-04-01",
+      "usersId": [122, 123],
+      "image": "https://hips.hearstapps.com/hmg-prod/images/por-que-el-espacio-es-frio-1617903788.jpg?crop=1xw:0.99984375xh;center,top&resize=1200:*",
+      "assets": ["asset23", "asset24", "asset25"],
+      "invitationStatus": "closed",
+      "allowOpenJoin": false,
+      "invitationCodeMessage": "",
+      "tasks": [
+        {
+          "taskId": 19,
+          "name": "Tarea 19",
+          "description": "Descripción de la Tarea 19",
+          "status": "in progress",
+          "assignedTo": 122
+        },
+        {
+          "taskId": 20,
+          "name": "Tarea 20",
+          "description": "Descripción de la Tarea 20",
+          "status": "pending",
+          "assignedTo": 123
+        }
+      ],
+      "mentorEvaluations": [
+        {
+          "userId": 122,
+          "evaluation": "Necesitas mejorar en la comunicación de tus avances."
+        },
+        {
+          "userId": 123,
+          "evaluation": "Buen progreso en la tarea 20."
+        }
+      ],
+      "selfEvaluations": [
+        {
+          "userId": 122,
+          "evaluation": "Tengo confianza en mi capacidad para completar el proyecto."
+        },
+        {
+          "userId": 123,
+          "evaluation": "Necesito más claridad en las expectativas del proyecto."
+        }
+      ]
+    },
+    {
+      "projectId": 11,
+      "name": "Robots",
+      "description": "Descripción del Proyecto K",
+      "created_at": "2025-03-01",
+      "end_at": "2025-05-01",
+      "usersId": [124, 125, 126],
+      "image": "https://www.mundodeportivo.com/urbantecno/hero/2023/07/pexels-alex-knight-2599244.jpg?width=768&aspect_ratio=16:9&format=nowebp",
+      "assets": ["asset26", "asset27"],
+      "invitationStatus": "open",
+      "allowOpenJoin": true,
+      "invitationCodeMessage": "Únete usando el código: JKL123",
+      "tasks": [
+        {
+          "taskId": 21,
+          "name": "Tarea 21",
+          "description": "Descripción de la Tarea 21",
+          "status": "completed",
+          "assignedTo": 124
+        },
+        {
+          "taskId": 22,
+          "name": "Tarea 22",
+          "description": "Descripción de la Tarea 22",
+          "status": "in progress",
+          "assignedTo": 125
+        }
+      ],
+      "mentorEvaluations": [
+        {
+          "userId": 124,
+          "evaluation": "Excelente trabajo en la tarea 21."
+        },
+        {
+          "userId": 125,
+          "evaluation": "Buen progreso en la tarea 22."
+        }
+      ],
+      "selfEvaluations": [
+        {
+          "userId": 124,
+          "evaluation": "Me siento satisfecho con mi desempeño hasta el momento."
+        },
+        {
+          "userId": 125,
+          "evaluation": "Tengo confianza en mis habilidades para completar la tarea 22."
+        }
+      ]
+    },
+    {
+      "projectId": 12,
+      "name": "Pingüinos",
+      "description": "Descripción del Proyecto L",
+      "created_at": "2025-04-01",
+      "end_at": "2025-06-01",
+      "usersId": [127, 128],
+      "image": "https://services.meteored.com/img/article/dia-concientizacion-pinguinos-donde-podes-verlos-en-argentina-bicontinental-antartida-punta-tombo-chubut-magallanes-1705742915872_1024.jpg",
+      "assets": ["asset28", "asset29", "asset30"],
+      "invitationStatus": "closed",
+      "allowOpenJoin": false,
+      "invitationCodeMessage": "",
+      "tasks": [
+        {
+          "taskId": 23,
+          "name": "Tarea 23",
+          "description": "Descripción de la Tarea 23",
+          "status": "in progress",
+          "assignedTo": 127
+        },
+        {
+          "taskId": 24,
+          "name": "Tarea 24",
+          "description": "Descripción de la Tarea 24",
+          "status": "pending",
+          "assignedTo": 128
+        }
+      ],
+      "mentorEvaluations": [
+        {
+          "userId": 127,
+          "evaluation": "Necesitas más enfoque en la tarea 23."
+        },
+        {
+          "userId": 128,
+          "evaluation": "Espero más precisión en las entregas futuras."
+        }
+      ],
+      "selfEvaluations": [
+        {
+          "userId": 127,
+          "evaluation": "Estoy comprometido a mejorar en el proyecto."
+        },
+        {
+          "userId": 128,
+          "evaluation": "Me siento confiado con mi contribución al proyecto."
+        }
+      ]
+    }
+  ]
+}

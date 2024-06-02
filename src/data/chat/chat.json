@@ -1,0 +1,35 @@
+{
+    "record": [
+      {
+        "idTransmitter": 104,
+        "transmitter": "Fiona",
+        "sendDate": "2024-02-01T16:32:00Z",
+        "message": "¡Hola!"
+      },
+      {
+        "idTransmitter": 180,
+        "transmitter": "Leonor",
+        "sendDate": "2024-02-01T16:45:00Z",
+        "message": "Hola! ¿Pudieron investigar?"
+      },
+      {
+        "idTransmitter": 125,
+        "transmitter": "Tomás",
+        "sendDate": "2024-02-01T19:45:00Z",
+        "message": "Estuve enfermo pero ya estoy mejor. Cómo puedo colaborar?"
+      },
+      {
+        "idTransmitter": 104,
+        "transmitter": "Fiona",
+        "sendDate": "2024-02-01T19:52:00Z",
+        "message": "Si Tomás, no te preocupes. Lo vemos mañana."
+      },
+      {
+        "idTransmitter": 20,
+        "transmitter": "Profesora Ana López",
+        "sendDate": "2024-02-02T09:52:00Z",
+        "message": "Recuerden que si hay algo que no logran resolver pueden consultarme"
+      }
+    ]
+  }
+  

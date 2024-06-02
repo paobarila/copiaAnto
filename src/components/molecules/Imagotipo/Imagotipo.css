@@ -1,0 +1,26 @@
+.imagotipo-container {
+    inline-size: 17rem;
+    block-size: 4rem;
+    /* display: flex; */
+}
+
+.imagotipo-imgTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    block-size: "6rem";
+}
+
+.imagotipo-imgTitle h1, .imagotipo-container h2 {
+    margin: 0
+}
+
+.imagotipo-title { 
+    font-size: 2.75rem;
+    font-weight: 500;
+}
+
+.imagotipo-subtitle { 
+    font-size: 0.875rem;
+    font-weight: 500;
+}

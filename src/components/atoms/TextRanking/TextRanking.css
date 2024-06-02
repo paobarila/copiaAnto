@@ -1,0 +1,23 @@
+.evaluation-item{
+    color:#592adc;
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 1.5rem; 
+    text-transform: none;
+    letter-spacing: 0.07em; 
+}
+ .evaluation-question{
+    color:#333333;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.5rem; 
+    text-transform: none;
+    letter-spacing: 0.07em;
+    margin-block-start: 0px; 
+    text-align: start;
+ }
+ .conteiner-text{
+display: flex;
+flex-direction: column;
+align-items:  flex-start;
+ }

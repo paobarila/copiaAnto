@@ -1,0 +1,51 @@
+.form-container-popupstar {
+    display: flex;
+    align-items: center;
+    border-radius: 1.25rem;
+    padding: 1.25rem;
+    background: var(--white);
+    gap: 0.25rem;
+    box-sizing: border-box;
+    width: 776px;
+    height: 513px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.form-container-text {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+img.isotipo {
+    padding-right: 10px;
+}
+
+.star-static {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem; 
+
+.rating-pair {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.MuiBox-root.css-pikhkf {
+    padding-right: 10px;
+}

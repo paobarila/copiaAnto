@@ -1,0 +1,53 @@
+{
+    "projects": [
+      {
+        "projectId": 1,
+        "name": "Los planetas",
+        "description": "Descripción del Proyecto A",
+        "created_at": "2024-05-01",
+        "end_at": "2024-07-01",
+        "usersId": [101, 102, 103],
+        "image": "https://concepto.de/wp-content/uploads/2019/04/sistema-solar-planetas-e1554483553214.jpg",
+        "assets": ["asset1", "asset2", "asset3"],
+        "invitationStatus": "open",
+        "allowOpenJoin": true,
+        "invitationCodeMessage": "Únete usando el código: ABC123",
+        "tasks": [
+          {
+            "taskId": 1,
+            "name": "Tarea 1",
+            "description": "Descripción de la Tarea 1",
+            "status": "pending",
+            "assignedTo": 101
+          },
+          {
+            "taskId": 2,
+            "name": "Tarea 2",
+            "description": "Descripción de la Tarea 2",
+            "status": "completed",
+            "assignedTo": 102
+          }
+        ],
+        "mentorEvaluations": [
+          {
+            "userId": 101,
+            "evaluation": "Excelente trabajo, sigue así."
+          },
+          {
+            "userId": 102,
+            "evaluation": "Necesitas mejorar en la comunicación."
+          }
+        ],
+        "selfEvaluations": [
+          {
+            "userId": 101,
+            "evaluation": "Me siento satisfecho con mi desempeño."
+          },
+          {
+            "userId": 102,
+            "evaluation": "Creo que puedo mejorar en la gestión del tiempo."
+          }
+        ]
+      }
+    ]
+}

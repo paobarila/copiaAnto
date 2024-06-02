@@ -1,0 +1,38 @@
+.form-container-popup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.25rem;
+    padding: 1.25rem;
+    background: var(--white);
+    gap: 0.25rem;
+    box-sizing: border-box;
+    width: 776px;
+    height: 238px;
+    position: relative;
+}
+
+.form-container-text {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+img.isotipo {
+    padding-right: 10px;
+}
